@@ -1,0 +1,2 @@
+# logcat
+logcat cfederacamad
