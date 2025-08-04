@@ -1342,3 +1342,631 @@
                                                                                                     #9      ComponentElement.visitChildren (package:flutter/src/widgets/framework.dart:5763:14)
                                                                                                     #10     _InactiveElements._
 2025-08-04 00:30:27.464  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 0
+
+2025-08-04 00:30:53.956  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 6
+2025-08-04 00:30:59.712  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API POST Request: https://beckend-ydd1.onrender.com/clans/leave, Data: {}
+2025-08-04 00:31:00.128  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans/leave</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:00.129  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans/leave</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:00.129  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao sair do clã: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans/leave</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:00.129  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/api/auth/me
+2025-08-04 00:31:00.531  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:00.532  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:00.533  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Erro ao buscar perfil do usuário: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:00.533  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Erro ao sair do clã na UI
+2025-08-04 00:31:00.533  6414-6414  flutter                 com.lucasbeats.federacao             I    Error: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:08.559  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Initiating logout.
+2025-08-04 00:31:08.559  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] CIRURGIA: Iniciando procedimento de logout e limpeza de memória.
+2025-08-04 00:31:08.559  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:31:08.559  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] LIMPEZA PROFUNDA: Removendo todos os vestígios de sessão anterior...
+2025-08-04 00:31:08.568  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] SharedPreferences completamente limpo.
+2025-08-04 00:31:08.569  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] ApiService: Cache interno limpo (se houver).
+2025-08-04 00:31:08.569  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Cache da API Service limpo.
+2025-08-04 00:31:08.569  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Limpeza profunda concluída. Sistema pronto para nova identidade.
+2025-08-04 00:31:08.569  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:31:08.569  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Status changed to Unauthenticated.
+2025-08-04 00:31:08.569  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Disconnecting SocketService...
+2025-08-04 00:31:08.572  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Socket desconectado
+2025-08-04 00:31:08.572  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Socket desconectado manualmente
+2025-08-04 00:31:08.573  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Memória de sessão e identidade completamente limpas.
+2025-08-04 00:31:08.573  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:31:08.631  6414-6414  flutter                 com.lucasbeats.federacao             I  [WARN] ⚠️ HomeScreen build: User is null after authentication check. This shouldn't happen.
+2025-08-04 00:31:16.978  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Checking if server is awake...
+2025-08-04 00:31:16.978  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Ensuring server is awake...
+2025-08-04 00:31:17.403  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Server keep-alive ping successful.
+2025-08-04 00:31:17.403  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Server is awake and responsive
+2025-08-04 00:31:17.403  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Attempting login for: lucasg
+2025-08-04 00:31:17.403  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] CIRURGIA: Iniciando procedimento de login para 'lucasg'.
+2025-08-04 00:31:17.403  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:31:17.404  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] LIMPEZA PROFUNDA: Removendo todos os vestígios de sessão anterior...
+2025-08-04 00:31:17.423  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] SharedPreferences completamente limpo.
+2025-08-04 00:31:17.423  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] ApiService: Cache interno limpo (se houver).
+2025-08-04 00:31:17.423  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Cache da API Service limpo.
+2025-08-04 00:31:17.423  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Limpeza profunda concluída. Sistema pronto para nova identidade.
+2025-08-04 00:31:17.424  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API POST Request: https://beckend-ydd1.onrender.com/api/auth/login, Data: {"username":"lucasg","password":"102030"}
+2025-08-04 00:31:18.634  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 200, Body: {"_id":"687269d8678729a839de286f","username":"lucasg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzI2OWQ4Njc4NzI5YTgzOWRlMjg2ZiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzU0Mjc4Mjc4LCJleHAiOjE3NTY4NzAyNzh9.rwLE6Dmh_bp2Hsxsyyl9Nl_pNiu7ecTyMv26bxFnp88","role":"user","clan":"688d855474bd78bad9c69844","federation":"688a69458b2e9f043a1d3ab4"}
+2025-08-04 00:31:18.661  6414-6414  flutter                 com.lucasbeats.federacao             I  [WARN] ⚠️ Expected Map for Name, but got String
+2025-08-04 00:31:18.661  6414-6414  flutter                 com.lucasbeats.federacao             I  [WARN] ⚠️ Expected Map for Tag, but got String
+2025-08-04 00:31:18.661  6414-6414  flutter                 com.lucasbeats.federacao             I  [WARN] ⚠️ Expected Map for Name, but got String
+2025-08-04 00:31:18.661  6414-6414  flutter                 com.lucasbeats.federacao             I  [WARN] ⚠️ Expected Map for Tag, but got String
+2025-08-04 00:31:18.662  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:31:18.662  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Status changed to Authenticated.
+2025-08-04 00:31:18.662  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Connecting SocketService...
+2025-08-04 00:31:18.662  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Login bem-sucedido. Nova identidade assumida: lucasg
+2025-08-04 00:31:18.662  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:31:18.662  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Login successful via AuthService for user: lucasg
+2025-08-04 00:31:18.664  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Tentando conectar ao servidor Socket.IO: https://beckend-ydd1.onrender.com
+2025-08-04 00:31:18.964  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Requesting necessary permissions...
+2025-08-04 00:31:18.983  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] HomeTab initialized
+2025-08-04 00:31:18.987  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/clans/688d855474bd78bad9c69844
+2025-08-04 00:31:19.003  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/clans/with-territories
+2025-08-04 00:31:19.004  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/federations/with-territories
+2025-08-04 00:31:19.017  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/api/global-chat/messages?page=1&limit=20
+2025-08-04 00:31:19.018  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Iniciando escuta de mensagens para global/global.
+2025-08-04 00:31:19.044  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/posts
+2025-08-04 00:31:19.052  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/clan-wars
+2025-08-04 00:31:19.164  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/federations
+2025-08-04 00:31:19.525  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Intro music started playing.
+2025-08-04 00:31:19.576  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clan-wars</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:19.577  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clan-wars</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.577  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Error fetching clan wars
+2025-08-04 00:31:19.577  6414-6414  flutter                 com.lucasbeats.federacao             I    Error: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clan-wars</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.577  6414-6414  flutter                 com.lucasbeats.federacao             I    StackTrace: #0      ApiService._handleResponse (package:lucasbeatsfederacao/services/api_service.dart:99:7)
+                                                                                                    #1      ApiService.get (package:lucasbeatsfederacao/services/api_service.dart:160:14)
+                                                                                                    <asynchronous suspension>
+                                                                                                    #2      ClanWarService.getClanWars (package:lucasbeatsfederacao/services/clan_war_service.dart:33:24)
+                                                                                                    <asynchronous suspension>
+                                                                                                    #3      _ClanWarsListScreenState._fetchClanWars (package:lucasbeatsfederacao/screens/clan_wars_list_screen.dart:34:19)
+                                                                                                    <asynchronous suspension>
+2025-08-04 00:31:19.634  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /federations/with-territories</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:19.635  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /federations/with-territories</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.635  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao buscar federações com territórios: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /federations/with-territories</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.638  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /posts</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:19.639  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /posts</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.639  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Error fetching posts
+2025-08-04 00:31:19.639  6414-6414  flutter                 com.lucasbeats.federacao             I    Error: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /posts</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.639  6414-6414  flutter                 com.lucasbeats.federacao             I    StackTrace: #0      ApiService._handleResponse (package:lucasbeatsfederacao/services/api_service.dart:99:7)
+                                                                                                    #1      ApiService.get (package:lucasbeatsfederacao/services/api_service.dart:160:14)
+                                                                                                    <asynchronous suspension>
+                                                                                                    #2      PostService.getPosts (package:lucasbeatsfederacao/services/post_service.dart:31:24)
+                                                                                                    <asynchronous suspension>
+                                                                                                    #3      _InstaClanFeedScreenState._fetchPosts (package:lucasbeatsfederacao/screens/instaclan_feed_screen.dart:34:16)
+                                                                                                    <asynchronous suspension>
+2025-08-04 00:31:19.652  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/with-territories</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:19.652  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/with-territories</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.653  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao buscar clãs com territórios: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/with-territories</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.656  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /federations</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:19.656  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /federations</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.656  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao buscar federações: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /federations</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:19.711  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Socket conectado com sucesso
+2025-08-04 00:31:19.712  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Socket conectado com sucesso
+2025-08-04 00:31:20.018  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/688d855474bd78bad9c69844</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:20.019  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/688d855474bd78bad9c69844</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:20.019  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao buscar clã por ID: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/688d855474bd78bad9c69844</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:20.019  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/clans/688d855474bd78bad9c69844/members
+2025-08-04 00:31:20.397  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/688d855474bd78bad9c69844/members</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:20.398  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/688d855474bd78bad9c69844/members</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:20.399  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao buscar membros do clã: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /clans/688d855474bd78bad9c69844/members</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:20.402  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 200, Body: {"success":true,"messages":[{"_id":"68686d4217257058945e7f1d","sender":{"federation":null,"federationRole":null,"_id":"6840fa81d3e355548749dfc6","username":"idcloned","avatar":"https://res.cloudinary.com/dcv6cmwhr/image/upload/v1754197214/profile_pictures/user_6840fa81d3e355548749dfc6_1754197213833.jpg","role":"ADM","clan":{"_id":"688ee451a86f7b3995c50091","name":"jhonas","tag":"BTR"},"clanRole":"member","id":"6840fa81d3e355548749dfc6"},"senderRole":"ADM","message":"aaa","type":"text","fileUrl":null,"systemInfo":null,"edited":false,"deleted":false,"reactions":[],"readBy":[],"timestamp":"2025-07-05T00:09:38.861Z","__v":0},{"_id":"6865602473db0d81206077ff","sender":{"federation":null,"federationRole":null,"_id":"6840fa81d3e355548749dfc6","username":"idcloned","avatar":"https://res.cloudinary.com/dcv6cmwhr/image/upload/v1754197214/profile_pictures/user_6840fa81d3e355548749dfc6_1754197213833.jpg","role":"ADM","clan":{"_id":"688ee451a86f7b3995c50091","name":"jhonas","tag":"B
+2025-08-04 00:31:20.404  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Mensagens carregadas para global/global: 20
+2025-08-04 00:31:28.502  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API POST Request: https://beckend-ydd1.onrender.com/federations, Data: {"name":"gfff","tag":"tff","description":"fffdxbcxvcxv","bannerImageUrl":null,"leaderId":null,"memberIds":null,"clanIds":null}
+2025-08-04 00:31:29.379  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /federations</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:29.380  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /federations</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:29.380  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao criar federação: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /federations</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:29.380  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Erro ao criar federação: Looking up a deactivated widget's ancestor is unsafe.
+                                                                                                    At this point the state of the widget's element tree is no longer stable.
+                                                                                                    To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+2025-08-04 00:31:29.380  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Platform Error:
+2025-08-04 00:31:29.381  6414-6414  flutter                 com.lucasbeats.federacao             I    Error: Looking up a deactivated widget's ancestor is unsafe.
+                                                                                                    At this point the state of the widget's element tree is no longer stable.
+                                                                                                    To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+2025-08-04 00:31:29.381  6414-6414  flutter                 com.lucasbeats.federacao             I    StackTrace: #0      Element._debugCheckStateIsActiveForAncestorLookup.<anonymous closure> (package:flutter/src/widgets/framework.dart:4945:9)
+                                                                                                    #1      Element._debugCheckStateIsActiveForAncestorLookup (package:flutter/src/widgets/framework.dart:4959:6)
+                                                                                                    #2      Element.findAncestorWidgetOfExactType (package:flutter/src/widgets/framework.dart:5020:12)
+                                                                                                    #3      debugCheckHasScaffoldMessenger.<anonymous closure> (package:flutter/src/material/debug.dart:181:17)
+                                                                                                    #4      debugCheckHasScaffoldMessenger (package:flutter/src/material/debug.dart:195:4)
+                                                                                                    #5      ScaffoldMessenger.of (package:flutter/src/material/scaffold.dart:156:12)
+                                                                                                    #6      QuickActionsWidget._showCreateFederationDialog.<anonymous closure>.<anonymous closure> (package:lucasbeatsfederacao/widgets/quick_actions_widget.dart:242:37)
+                                                                                                    <asynchronous suspension>
+2025-08-04 00:31:29.381  6414-6414  flutter                 com.lucasbeats.federacao             I  ----------------FIREBASE CRASHLYTICS----------------
+2025-08-04 00:31:29.381  6414-6414  flutter                 com.lucasbeats.federacao             I  Looking up a deactivated widget's ancestor is unsafe.
+                                                                                                    At this point the state of the widget's element tree is no longer stable.
+                                                                                                    To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+2025-08-04 00:31:29.381  6414-6414  flutter                 com.lucasbeats.federacao             I  #0      Element._debugCheckStateIsActiveForAncestorLookup.<anonymous closure> (package:flutter/src/widgets/framework.dart:4945:9)
+                                                                                                    #1      Element._debugCheckStateIsActiveForAncestorLookup (package:flutter/src/widgets/framework.dart:4959:6)
+                                                                                                    #2      Element.findAncestorWidgetOfExactType (package:flutter/src/widgets/framework.dart:5020:12)
+                                                                                                    #3      debugCheckHasScaffoldMessenger.<anonymous closure> (package:flutter/src/material/debug.dart:181:17)
+                                                                                                    #4      debugCheckHasScaffoldMessenger (package:flutter/src/material/debug.dart:195:4)
+                                                                                                    #5      ScaffoldMessenger.of (package:flutter/src/material/scaffold.dart:156:12)
+                                                                                                    #6      QuickActionsWidget._showCreateFederationDialog.<anonymous closure>.<anonymous closure> (package:lucasbeatsfederacao/widgets/quick_actions_widget.dart:242:37)
+                                                                                                    <asynchronous suspension>
+2025-08-04 00:31:29.381  6414-6414  flutter                 com.lucasbeats.federacao             I  ----------------------------------------------------
+2025-08-04 00:31:36.664  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] App lifecycle state changed: AppLifecycleState.inactive
+2025-08-04 00:31:37.852  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] App lifecycle state changed: AppLifecycleState.hidden
+2025-08-04 00:31:37.852  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Updating presence for user 687269d8678729a839de286f to: offline
+2025-08-04 00:31:37.853  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Status de presença atualizado para offline.
+2025-08-04 00:31:37.854  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] App lifecycle state changed: AppLifecycleState.paused
+2025-08-04 00:31:37.854  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Updating presence for user 687269d8678729a839de286f to: offline
+2025-08-04 00:31:37.854  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Status de presença atualizado para offline.
+2025-08-04 00:31:37.892  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] App lifecycle state changed: AppLifecycleState.hidden
+2025-08-04 00:31:37.892  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Updating presence for user 687269d8678729a839de286f to: offline
+2025-08-04 00:31:37.893  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Status de presença atualizado para offline.
+2025-08-04 00:31:37.893  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] App lifecycle state changed: AppLifecycleState.inactive
+2025-08-04 00:31:37.953  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] App lifecycle state changed: AppLifecycleState.resumed
+2025-08-04 00:31:37.953  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Updating presence for user 687269d8678729a839de286f to: online
+2025-08-04 00:31:37.956  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Status de presença atualizado para online.
+2025-08-04 00:31:49.004  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API POST Request: https://beckend-ydd1.onrender.com/clans, Data: {"name":"essffff","tag":"rfc","description":"vvghhfjhhhbbvbh","bannerImageUrl":null,"leaderId":null,"memberIds":null,"federationId":null}
+2025-08-04 00:31:49.456  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:31:49.457  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:49.457  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao criar clã: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:31:49.458  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Erro ao criar clã: Looking up a deactivated widget's ancestor is unsafe.
+                                                                                                    At this point the state of the widget's element tree is no longer stable.
+                                                                                                    To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+2025-08-04 00:31:49.458  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Platform Error:
+2025-08-04 00:31:49.458  6414-6414  flutter                 com.lucasbeats.federacao             I    Error: Looking up a deactivated widget's ancestor is unsafe.
+                                                                                                    At this point the state of the widget's element tree is no longer stable.
+                                                                                                    To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+2025-08-04 00:31:49.458  6414-6414  flutter                 com.lucasbeats.federacao             I    StackTrace: #0      Element._debugCheckStateIsActiveForAncestorLookup.<anonymous closure> (package:flutter/src/widgets/framework.dart:4945:9)
+                                                                                                    #1      Element._debugCheckStateIsActiveForAncestorLookup (package:flutter/src/widgets/framework.dart:4959:6)
+                                                                                                    #2      Element.findAncestorWidgetOfExactType (package:flutter/src/widgets/framework.dart:5020:12)
+                                                                                                    #3      debugCheckHasScaffoldMessenger.<anonymous closure> (package:flutter/src/material/debug.dart:181:17)
+                                                                                                    #4      debugCheckHasScaffoldMessenger (package:flutter/src/material/debug.dart:195:4)
+                                                                                                    #5      ScaffoldMessenger.of (package:flutter/src/material/scaffold.dart:156:12)
+                                                                                                    #6      QuickActionsWidget._showCreateClanDialog.<anonymous closure>.<anonymous closure> (package:lucasbeatsfederacao/widgets/quick_actions_widget.dart:388:37)
+                                                                                                    <asynchronous suspension>
+2025-08-04 00:31:49.458  6414-6414  flutter                 com.lucasbeats.federacao             I  ----------------FIREBASE CRASHLYTICS----------------
+2025-08-04 00:31:49.458  6414-6414  flutter                 com.lucasbeats.federacao             I  Looking up a deactivated widget's ancestor is unsafe.
+                                                                                                    At this point the state of the widget's element tree is no longer stable.
+                                                                                                    To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+2025-08-04 00:31:49.458  6414-6414  flutter                 com.lucasbeats.federacao             I  #0      Element._debugCheckStateIsActiveForAncestorLookup.<anonymous closure> (package:flutter/src/widgets/framework.dart:4945:9)
+                                                                                                    #1      Element._debugCheckStateIsActiveForAncestorLookup (package:flutter/src/widgets/framework.dart:4959:6)
+                                                                                                    #2      Element.findAncestorWidgetOfExactType (package:flutter/src/widgets/framework.dart:5020:12)
+                                                                                                    #3      debugCheckHasScaffoldMessenger.<anonymous closure> (package:flutter/src/material/debug.dart:181:17)
+                                                                                                    #4      debugCheckHasScaffoldMessenger (package:flutter/src/material/debug.dart:195:4)
+                                                                                                    #5      ScaffoldMessenger.of (package:flutter/src/material/scaffold.dart:156:12)
+                                                                                                    #6      QuickActionsWidget._showCreateClanDialog.<anonymous closure>.<anonymous closure> (package:lucasbeatsfederacao/widgets/quick_actions_widget.dart:388:37)
+                                                                                                    <asynchronous suspension>
+2025-08-04 00:31:49.459  6414-6414  flutter                 com.lucasbeats.federacao             I  ----------------------------------------------------
+2025-08-04 00:32:06.015  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] QRR Iniciado: Título: vddd, Descrição: vvvvf, Prioridade: critical
+2025-08-04 00:32:18.868  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 1
+2025-08-04 00:32:22.969  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 2
+2025-08-04 00:32:27.255  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Mensagem enviada via Socket.IO para global/global: hhhj
+2025-08-04 00:32:29.117  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 3
+2025-08-04 00:32:29.993  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 4
+2025-08-04 00:32:30.417  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 5
+2025-08-04 00:32:31.172  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Switched to tab index: 6
+2025-08-04 00:32:33.940  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Flutter Error:
+2025-08-04 00:32:33.940  6414-6414  flutter                 com.lucasbeats.federacao             I    Error: Invalid argument(s): No host specified in URI 
+2025-08-04 00:32:33.940  6414-6414  flutter                 com.lucasbeats.federacao             I    StackTrace: #0      _HttpClient._openUrl (dart:_http/http_impl.dart:3019:9)
+                                                                                                    #1      _HttpClient.openUrl (dart:_http/http_impl.dart:2875:7)
+                                                                                                    #2      IOClient.send (package:http/src/io_client.dart:117:38)
+                                                                                                    #3      HttpFileService.get (package:flutter_cache_manager/src/web/file_service.dart:37:44)
+                                                                                                    #4      WebHelper._download (package:flutter_cache_manager/src/web/web_helper.dart:115:24)
+                                                                                                    #5      WebHelper._updateFile (package:flutter_cache_manager/src/web/web_helper.dart:96:28)
+                                                                                                    <asynchronous suspension>
+                                                                                                    #6      WebHelper._downloadOrAddToQueue (package:flutter_cache_manager/src/web/web_helper.dart:64:7)
+                                                                                                    <asynchronous suspension>
+2025-08-04 00:32:43.291  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API POST Request: https://beckend-ydd1.onrender.com/clans/leave, Data: {}
+2025-08-04 00:32:44.241  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans/leave</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:32:44.242  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans/leave</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:32:44.242  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Exceção ao sair do clã: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot POST /clans/leave</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:32:44.242  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API GET Request: https://beckend-ydd1.onrender.com/api/auth/me
+2025-08-04 00:32:44.596  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] API Response Status: 404, Body: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+2025-08-04 00:32:44.597  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ API Error: 404 - <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:32:44.598  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Erro ao buscar perfil do usuário: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:32:44.598  6414-6414  flutter                 com.lucasbeats.federacao             I  [ERROR] ❌ Erro ao sair do clã na UI
+2025-08-04 00:32:44.598  6414-6414  flutter                 com.lucasbeats.federacao             I    Error: Exception: <!DOCTYPE html>
+                                                                                                    <html lang="en">
+                                                                                                    <head>
+                                                                                                    <meta charset="utf-8">
+                                                                                                    <title>Error</title>
+                                                                                                    </head>
+                                                                                                    <body>
+                                                                                                    <pre>Cannot GET /api/auth/me</pre>
+                                                                                                    </body>
+                                                                                                    </html>
+                                                                                                     (Code: 404)
+2025-08-04 00:32:50.076  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Initiating logout.
+2025-08-04 00:32:50.076  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] CIRURGIA: Iniciando procedimento de logout e limpeza de memória.
+2025-08-04 00:32:50.077  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:32:50.077  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] LIMPEZA PROFUNDA: Removendo todos os vestígios de sessão anterior...
+2025-08-04 00:32:50.085  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] SharedPreferences completamente limpo.
+2025-08-04 00:32:50.085  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] ApiService: Cache interno limpo (se houver).
+2025-08-04 00:32:50.085  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Cache da API Service limpo.
+2025-08-04 00:32:50.085  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Limpeza profunda concluída. Sistema pronto para nova identidade.
+2025-08-04 00:32:50.085  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:32:50.085  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Status changed to Unauthenticated.
+2025-08-04 00:32:50.085  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider: Disconnecting SocketService...
+2025-08-04 00:32:50.086  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Socket desconectado
+2025-08-04 00:32:50.086  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Socket desconectado
+2025-08-04 00:32:50.086  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Socket desconectado manualmente
+2025-08-04 00:32:50.087  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] Memória de sessão e identidade completamente limpas.
+2025-08-04 00:32:50.087  6414-6414  flutter                 com.lucasbeats.federacao             I  [INFO] AuthProvider received notification from AuthService.
+2025-08-04 00:32:50.132  6414-6414  flutter                 com.lucasbeats.federacao             I  [WARN] ⚠️ HomeScreen build: User is null after authentication check. This shouldn't happen.
+
